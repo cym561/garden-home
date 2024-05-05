@@ -14,7 +14,7 @@ body{
       font-weight: bold;
      
   }
-  h2{
+  .sub-heading{
     font-family:'Playfair Display', serif;
       text-align: center;
       font-size: 26px;
@@ -29,6 +29,29 @@ body{
      font-size: 20px;
   }
 
+  .login{
+    background-color: rgb(5, 15, 58);
+    max-width: 600px;
+    max-height: auto;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+
+  }
+  .account-page{
+    background-color: rgb(5, 15, 58);
+    max-width: 600px;
+    max-height: auto;
+    text-align: center;
+    margin: 100px auto;
+    padding: 20px;
+
+  }
+ 
+
+  .login-button{
+    color: blue;
+  }
   @media screen and (max-width: 567px){
     .container{
       text-align: center;
